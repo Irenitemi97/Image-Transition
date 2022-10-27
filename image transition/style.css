@@ -1,0 +1,34 @@
+.text {
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+.imageContainer {
+    background-color: black;
+    height: 60vh;
+    width: 60vw;
+
+    position: relative;
+    margin: auto;
+
+}
+
+.imageContainer img {
+    height: 60vh;
+    width: 60vw;
+}
+
+.transition {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.transition:hover {
+    opacity: 1;
+} 
+fon
